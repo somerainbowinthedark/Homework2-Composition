@@ -150,9 +150,6 @@ class CollegeStudent extends Student {
                 + ", Major: " + major
                 + ", Grade: " + grade;
     }
-}
-
-public class Main {
     public static void main(String[] args) {
         Person person = new Person(
                 "Alex Smith", true, 40, "111-22-3333");
@@ -175,4 +172,4 @@ public class Main {
         System.out.println(collegeStudent);
     }
 }
- 
+
